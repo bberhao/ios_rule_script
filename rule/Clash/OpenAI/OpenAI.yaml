@@ -122,11 +122,14 @@ payload:
   - IP-ASN,20473,no-resolve
   - DOMAIN-SUFFIX,x.ai
   # Other
+  - DOMAIN,suggest.perplexity.ai
+  - DOMAIN,www.perplexity.ai
   - DOMAIN-SUFFIX,lmsys.org
   - DOMAIN-SUFFIX,poe.com
   - DOMAIN-KEYWORD,cohere
   - DOMAIN-SUFFIX,coze.com
   - DOMAIN-SUFFIX,grazie.ai
+  - DOMAIN-SUFFIX,perplexity.ai
   - DOMAIN-SUFFIX,grazie.aws.intellij.net
   - DOMAIN-SUFFIX,klingai.com
   - DOMAIN-SUFFIX,deepseek.com
