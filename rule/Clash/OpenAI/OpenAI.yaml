@@ -11,6 +11,11 @@
 payload:
 # Gemini&Bard
   - DOMAIN,ai.google.dev
+  - DOMAIN,lh3.googleusercontent.com
+  - DOMAIN,people-pa.googleapis.com
+  - DOMAIN,oauthaccountmanager.googleapis.com
+  - DOMAIN,oauth2.googleapis.com
+  - DOMAIN,notifications-pa.googleapis.com
   - DOMAIN,alkalimakersuite-pa.clients6.google.com
   - DOMAIN,generativelanguage.googleapis.com
   - DOMAIN,makersuite.google.com
@@ -21,10 +26,6 @@ payload:
   - DOMAIN-SUFFIX,bard.google.com
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
-  - DOMAIN-SUFFIX,lh3.googleusercontent
-  - DOMAIN-SUFFIX,people-pa.googleapis
-  - DOMAIN-SUFFIX,oauthaccountmanager.googleapis
-  - DOMAIN-SUFFIX,oauth2.googleapis
   - DOMAIN-SUFFIX,gemini.google.com
   - DOMAIN-SUFFIX,generativeai.google
   - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
