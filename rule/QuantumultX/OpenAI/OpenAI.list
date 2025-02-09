@@ -20,6 +20,10 @@ DOMAIN-SUFFIX,apis.google.com
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,lh3.googleusercontent
+DOMAIN-SUFFIX,people-pa.googleapis
+DOMAIN-SUFFIX,oauthaccountmanager.googleapis
+DOMAIN-SUFFIX,oauth2.googleapis
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
