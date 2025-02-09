@@ -65,10 +65,6 @@ payload:
   - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-SUFFIX,turn.livekit.cloud
   - DOMAIN-KEYWORD,openai
-  - IP-CIDR,24.199.123.28/32
-  - IP-CIDR,64.23.132.171/32
-  - IP-ASN,20473
-  # Copilot: 
   - DOMAIN,api.msn.com
   - DOMAIN,api.statsig.com
   - DOMAIN,assets.msn.com
@@ -116,14 +112,9 @@ payload:
   - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-SUFFIX,turn.livekit.cloud
   - DOMAIN-KEYWORD,openaicom-api
-  - IP-CIDR,24.199.123.28/32,no-resolve
-  - IP-CIDR,64.23.132.171/32,no-resolve
-  - IP-ASN,14061,no-resolve
-  - IP-ASN,20473,no-resolve
   - DOMAIN-SUFFIX,x.ai
-  # Other
   - DOMAIN,suggest.perplexity.ai
-  - DOMAIN,www.perplexity.ai
+  - DOMAIN,perplexity.ai
   - DOMAIN-SUFFIX,lmsys.org
   - DOMAIN-SUFFIX,poe.com
   - DOMAIN-KEYWORD,cohere
@@ -140,3 +131,10 @@ payload:
   - DOMAIN-SUFFIX,hcompany.ai
   - DOMAIN-KEYWORD,hcompany
   - DOMAIN-KEYWORD,groq
+  - IP-CIDR,24.199.123.28/32,no-resolve
+  - IP-CIDR,64.23.132.171/32,no-resolve
+  - IP-CIDR,24.199.123.28/32
+  - IP-CIDR,64.23.132.171/32
+  - IP-ASN,14061,no-resolve
+  - IP-ASN,20473,no-resolve
+  - IP-ASN,20473
