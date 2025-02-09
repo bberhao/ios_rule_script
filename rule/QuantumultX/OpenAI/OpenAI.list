@@ -9,7 +9,7 @@
 # IP-CIDR: 2
 # TOTAL: 36
 # Gemini&Bard&claude
-DOMAIN,cdn.usefathom.com
+ - DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN,gemini.google.com
