@@ -9,7 +9,12 @@
 # IP-CIDR: 2
 # TOTAL: 36
 payload:
-# Gemini&Bard
+  - DOMAIN,cdn.usefathom.com
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN,browser-intake-datadoghq.com
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN,gemini.google.com
   - DOMAIN,ai.google.dev
   - DOMAIN,lh3.googleusercontent.com
   - DOMAIN,people-pa.googleapis.com
@@ -29,23 +34,13 @@ payload:
   - DOMAIN-SUFFIX,gemini.google.com
   - DOMAIN-SUFFIX,generativeai.google
   - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-# claude
-  - DOMAIN,cdn.usefathom.com
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-SUFFIX,claude.ai
-# OpenAI: 
-  - DOMAIN-SUFFIX,chat.com
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,sora.com
-  - DOMAIN,browser-intake-datadoghq.com
-  - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  - DOMAIN,gemini.google.com
   - DOMAIN,openai-api.arkoselabs.com
   - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   - DOMAIN,openaicomproductionae4b.blob.core.windows.net
   - DOMAIN,production-openaicom-storage.azureedge.net
   - DOMAIN,static.cloudflareinsights.com
   - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,sora.com
   - DOMAIN-SUFFIX,algolia.net
   - DOMAIN-SUFFIX,api.statsig.com
   - DOMAIN-SUFFIX,auth0.com
@@ -70,10 +65,10 @@ payload:
   - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-SUFFIX,turn.livekit.cloud
   - DOMAIN-KEYWORD,openai
-  - IP-CIDR,24.199.123.28/32,no-resolve
-  - IP-CIDR,64.23.132.171/32,no-resolve
-  - IP-ASN,20473,no-resolve
-# Copilot: 
+  - IP-CIDR,24.199.123.28/32
+  - IP-CIDR,64.23.132.171/32
+  - IP-ASN,20473
+  # Copilot: 
   - DOMAIN,api.msn.com
   - DOMAIN,api.statsig.com
   - DOMAIN,assets.msn.com
@@ -126,7 +121,7 @@ payload:
   - IP-ASN,14061,no-resolve
   - IP-ASN,20473,no-resolve
   - DOMAIN-SUFFIX,x.ai
-# Other
+  # Other
   - DOMAIN-SUFFIX,lmsys.org
   - DOMAIN-SUFFIX,poe.com
   - DOMAIN-KEYWORD,cohere
