@@ -1,19 +1,8 @@
-# NAME: OpenAI
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-03 16:18:28
-# DOMAIN: 8
-# DOMAIN-KEYWORD: 1
-# DOMAIN-SUFFIX: 24
-# IP-ASN: 1
-# IP-CIDR: 2
-# TOTAL: 36
 payload:
+# Gemini&Bard&claude
   - DOMAIN,cdn.usefathom.com
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN,browser-intake-datadoghq.com
-  - DOMAIN,chat.openai.com.cdn.cloudflare.net
   - DOMAIN,gemini.google.com
   - DOMAIN,ai.google.dev
   - DOMAIN,lh3.googleusercontent.com
@@ -34,6 +23,9 @@ payload:
   - DOMAIN-SUFFIX,gemini.google.com
   - DOMAIN-SUFFIX,generativeai.google
   - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+# OpenAI
+  - DOMAIN,browser-intake-datadoghq.com
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net
   - DOMAIN,openai-api.arkoselabs.com
   - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   - DOMAIN,openaicomproductionae4b.blob.core.windows.net
@@ -65,6 +57,10 @@ payload:
   - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-SUFFIX,turn.livekit.cloud
   - DOMAIN-KEYWORD,openai
+  - IP-CIDR,24.199.123.28/32,no-resolve
+  - IP-CIDR,64.23.132.171/32,no-resolve
+  - IP-ASN,20473,no-resolve
+# Copilot
   - DOMAIN,api.msn.com
   - DOMAIN,api.statsig.com
   - DOMAIN,assets.msn.com
@@ -112,14 +108,18 @@ payload:
   - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-SUFFIX,turn.livekit.cloud
   - DOMAIN-KEYWORD,openaicom-api
+  - IP-CIDR,24.199.123.28/32,no-resolve
+  - IP-CIDR,64.23.132.171/32,no-resolve
+  - IP-ASN,14061,no-resolve
+  - IP-ASN,20473,no-resolve
   - DOMAIN-SUFFIX,x.ai
+# Other
   - DOMAIN,perplexity.ai
   - DOMAIN-SUFFIX,lmsys.org
   - DOMAIN-SUFFIX,poe.com
   - DOMAIN-KEYWORD,cohere
   - DOMAIN-SUFFIX,coze.com
   - DOMAIN-SUFFIX,grazie.ai
-  - DOMAIN-KEYWORD,perplexity
   - DOMAIN-SUFFIX,grazie.aws.intellij.net
   - DOMAIN-SUFFIX,klingai.com
   - DOMAIN-SUFFIX,deepseek.com
@@ -130,3 +130,4 @@ payload:
   - DOMAIN-SUFFIX,hcompany.ai
   - DOMAIN-KEYWORD,hcompany
   - DOMAIN-KEYWORD,groq
+  - DOMAIN-KEYWORD,perplexity
