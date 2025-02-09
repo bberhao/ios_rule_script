@@ -113,14 +113,13 @@ payload:
   - DOMAIN-SUFFIX,turn.livekit.cloud
   - DOMAIN-KEYWORD,openaicom-api
   - DOMAIN-SUFFIX,x.ai
-  - DOMAIN,suggest.perplexity.ai
   - DOMAIN,perplexity.ai
   - DOMAIN-SUFFIX,lmsys.org
   - DOMAIN-SUFFIX,poe.com
   - DOMAIN-KEYWORD,cohere
   - DOMAIN-SUFFIX,coze.com
   - DOMAIN-SUFFIX,grazie.ai
-  - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN-KEYWORD,perplexity
   - DOMAIN-SUFFIX,grazie.aws.intellij.net
   - DOMAIN-SUFFIX,klingai.com
   - DOMAIN-SUFFIX,deepseek.com
